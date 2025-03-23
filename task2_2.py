@@ -10,4 +10,4 @@ sigma = 1.0  # We can adjust this value to see how it affects the results
 smoothed_image = ndimage.gaussian_filter(gray_image_array, sigma=sigma)
 smoothed_result = Image.fromarray(gray_image_array)
 # smoothed_result.show()
-smoothed_result.save('../Reference/data/2.2_gray_gaussian.jpg')
+smoothed_result.save('../Reference/data/2.2_gray_smoothed.jpg')
