@@ -53,4 +53,4 @@ suppressed_image = non_maximum_suppression(gradient_magnitude_uint8, sobel_x_uin
 
 # Save the suppressed image
 suppressed_image_uint8 = suppressed_image.astype(np.uint8)
-Image.fromarray(suppressed_image_uint8).save('../Reference/data/2.4_supress.jpg')
+Image.fromarray(suppressed_image_uint8).save('../Reference/data/2.4_suppress.jpg')
